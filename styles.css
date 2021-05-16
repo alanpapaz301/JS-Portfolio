@@ -80,6 +80,7 @@ p {
   margin: 0 auto;
   width: 85%;
   padding: 20px;
+  word-wrap: break-word;
 }
 
 .sectionTitle {
@@ -224,8 +225,9 @@ footer {
     width: auto;
   }
   .header nav ul {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
@@ -234,8 +236,14 @@ footer {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .name h1 {
+    font-size: 4vmin;
+  }
+  .name h3 {
+    font-size: 3vmin;
+  }
   ul {
-    font-size: 2.5vmin;
+    font-size: 3vmin;
   }
 }
 /*# sourceMappingURL=styles.css.map */

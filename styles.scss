@@ -22,6 +22,7 @@ p {
   align-items: center;
   background-color: rgb(31, 30, 30);
   height: 20vh;
+
   color: white;
 
   h1 {
@@ -59,6 +60,7 @@ p {
   margin: 0 auto;
   width: 85%;
   padding: 20px;
+  word-wrap: break-word;
 }
 .sectionTitle {
   color: rgb(52, 44, 109);
@@ -173,7 +175,7 @@ footer {
   .header {
     nav {
       ul {
-        justify-content: space-around;
+        justify-content: space-evenly;
       }
     }
   }
@@ -182,7 +184,16 @@ footer {
   .boxContainer {
     grid-template-columns: 1fr;
   }
+
+  .name {
+    h1 {
+      font-size: 4vmin;
+    }
+    h3 {
+      font-size: 3vmin;
+    }
+  }
   ul {
-    font-size: 2.5vmin;
+    font-size: 3vmin;
   }
 }
