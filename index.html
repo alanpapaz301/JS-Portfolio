@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="name">
+        <h1>Alan Papazoglou</h1>
+        <h3>Desenvolvedor</h3>
+      </div>
+      <nav class=>
+        <ul class="nav-list">
+          <li class="nav-link"><a href="#education">Formação</a></li>
+          <li class="nav-link"><a href="#trajectory">Trajetória</a></li>
+          <li class="nav-link"><a href="#projects">Projetos</a></li>
+          <li class="nav-link"><a href="#contacts">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="education">
+        <h2 class="sectionTitle">Formação</h2>
+        <p class="educationOverview"></p>
+        <div class="boxContainer"></div>
+      </section>
+      <section id="trajectory">
+        <h2 class="sectionTitle">Trajetória</h2>
+        <p class="trajectoryParagraph"></p>
+      </section>
+      <section id="projects">
+        <h2 class="sectionTitle">Projetos</h2>
+        <p class="projectsOverview"></p>
+        <div class="projectsContainer"></div>
+      </section>
+      <section id="contacts">
+        <h2 class="sectionTitle">Contatos</h2>
+        <form class = "form-init" id="project-form">
+          <input type = "text" placeholder="Name"></input>
+          <input type = "text" placeholder="Phone"></input>
+          <input type = "text" placeholder="E-mail"></input>
+          <textarea placeholder="Project description"></textarea>
+          <button type="button"onclick="sendBtn()">Enviar</button>
+
+        </form>
+        <div class="contactContainer"></div>
+        <button onclick="showForm()">Proposta de projeto</button>
+
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
