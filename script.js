@@ -8,7 +8,7 @@ const data = {
     courses: [
       {
         institution: "Instituto Federal do Paraná",
-        course: "Analise e Desenvolvimento de Sistemas",
+        course: "Análise e Desenvolvimento de Sistemas",
         period: "02/2019 a 02/2022",
       },
       {
